@@ -14,6 +14,10 @@ else if (section == 'children'){
   console.log('children');
 }
 
+var myWindow = window.open("", "", "width=200, height=100");
+myWindow.document.write("<p>Our new brands!</p>");
+myWindow.blur();
 
 
  confirm('Did you find our site interested ?')
+
