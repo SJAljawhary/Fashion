@@ -48,7 +48,7 @@ console.log(section);
 
 var dilevery = prompt('how many times you want us to dilever weekly?') 
 
-for (let i =0; i<=dilevery; i++){
+for (let i =1; i<=dilevery; i++){
 
   if(dilevery <='3'){
 
