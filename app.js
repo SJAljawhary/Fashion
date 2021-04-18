@@ -72,20 +72,34 @@ var answer1= askUser2('less than 45');
 
 // var dilevery = prompt('how many times you want us to dilever weekly?') 
 
+<<<<<<< HEAD
+=======
+
+for (let i =1; i<=dilevery; i++){
+
+>>>>>>> f344bcdfd19442d91de4e8d6904f7a85876a07b7
 
 // for (let i =1; i<=dilevery; i++){
 
+<<<<<<< HEAD
 
 //   if(dilevery <='3'){
 
 //  let image='<img  src="img/welcome.png" alt="welcome"width=300px >'
+=======
+ let image='<img  src="img/welcome.png" alt="welcome"width=300px >'
+>>>>>>> f344bcdfd19442d91de4e8d6904f7a85876a07b7
   
 //    document.write(image);
 //   }
 
 //   else if(dilevery <='7'){
 
+<<<<<<< HEAD
 //    let image='<img src="img/images.jpg" alt="thank you" width=300px >'
+=======
+   let image='<img src="img/images.jpg" alt="thank you" width=300px >'
+>>>>>>> f344bcdfd19442d91de4e8d6904f7a85876a07b7
 
 //    document.write(image);
 
