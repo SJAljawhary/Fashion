@@ -29,30 +29,30 @@ function askUser(section){
 
 
 
-// var age = prompt('please enter if your age is less than 30 or more ?')
+var age = prompt('please enter if your age is less than 30 or more ?')
 
-// if(age >= '45' && section == 'men'){
-//   alert('Thank you alot !');
-//   console.log('morethan');
-// }
-
-// else if(age >= '45'&& section =='women'){
-//   alert('Thank you very much !');
-//   console.log('lessthan');
-// }
-
-function askUser2(age){
-
-  var ask = prompt('Is your age '+ age + ' ?')
-  return ask;
+if(age >= '45' && section == 'men'){
+  alert('Thank you alot !');
+  console.log('morethan');
 }
 
-var answer1= askUser2('less than 45');
-             askUser2('more than 45');
-    console.log(answer1);
+else if(age >= '45'&& section =='women'){
+  alert('Thank you very much !');
+  console.log('lessthan');
+}
+
+// function askUser2(age){
+
+//   var ask = prompt('Is your age '+ age + ' ?')
+//   return ask;
+// }
+
+// var answer1= askUser2('less than 45');
+//              askUser2('more than 45');
+//     console.log(answer1);
 
     
-//  confirm('Did you find our site interested ?')
+ confirm('Did you find our site interested?Oh yes? then continue your trip :) ')
 
 
 
@@ -70,37 +70,37 @@ var answer1= askUser2('less than 45');
 
 
 
-// var dilevery = prompt('how many times you want us to dilever weekly?') 
+var dilevery = prompt('how many times you want us to dilever weekly?') 
 
 
-// for (let i =1; i<=dilevery; i++){
-
-
-
-//   if(dilevery <='3'){
-
-//  let image='<img  src="img/welcome.png" alt="welcome"width=300px >'
+for (let i =1; i<=dilevery; i++){
 
 
 
-  
-//    document.write(image);
-//   }
+  if(dilevery <='3'){
 
-//   else if(dilevery <='7'){
+ let image='<img  src="img/welcome.png" alt="welcome"width=300px >'
 
 
-//    let image='<img src="img/images.jpg" alt="thank you" width=300px >'
 
   
+   document.write(image);
+  }
+
+  else if(dilevery <='7'){
 
 
-//    document.write(image);
+   let image='<img src="img/images.jpg" alt="thank you" width=300px >'
 
-//   }
+  
 
 
-// }
+   document.write(image);
+
+  }
+
+
+}
 
 
 
